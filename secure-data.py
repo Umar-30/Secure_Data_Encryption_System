@@ -172,5 +172,7 @@ def main():
         insert_data()
     elif st.session_state.page == "retrieve":
         retrieve_data()
-
 main()
+# Add a footer
+st.markdown("---")
+st.markdown("🔐 Secure Data Encryption System | Project by Shagufta Zakir! ")
